@@ -19,24 +19,28 @@ int mouvement(char direc){
 			return(-1);
 		}
 		else(snake->pos->y++);
+		return(0);
 	}
 	if(direc=='b'){
 		if(snake->pos->y == m){
 			return(-1);
 		}
 		else(snake->pos->y--);
+		return(0);
 	}
 	if(direc=='g'){
 		if(snake->pos->x == 0){
 			return(-1);
 		}
 		else(snake->pos->x--);
+		return(0);
 	}
 	if(direc=='d'){
 		if(snake->pos->m == m){
 			return(-1);
 		}
 		else(snake->pos->x--);
+		return(0);
 	}
 }
 
