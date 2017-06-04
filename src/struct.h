@@ -30,3 +30,10 @@ typedef char** plateau;
 coord* postition(int k,anneaux* snake);
 
 void modif(int k,anneaux* snake,coord* c);
+
+struct word {
+	int id;
+	char word;
+};
+
+typedef struct word word;
